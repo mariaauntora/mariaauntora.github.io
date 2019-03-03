@@ -1,0 +1,95 @@
+html {
+    background-color: rgb(19, 16, 58);    
+  }
+  body{
+    width: 1100px;
+    margin: 0px 0px;
+    background-color:hsl(255, 36%, 96%);
+    padding: 0 20px 20px 20px;
+    border: 2px solid black;
+  }
+  p{
+    font-size: 25px;
+    text-align: center;
+    color: rgb(187, 101, 101);
+    font-style: bold
+  }
+form{
+  margin-left: 250px;
+  width: 500px;
+  background-color: #999;
+}
+label{
+  font:30px;
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+}
+textarea{
+  width:300px;
+  height:50px;
+}
+input{
+  font:1em sans-serif;
+  width:300px;
+  height:25px;
+  box-sizing: border-box;
+  border:1px solid #999;
+}
+button{
+  margin-left:200px;
+  font:20px;
+}
+  h1 {
+    margin-left: 400px;
+    color: white;
+    text-shadow: 2px 3px 1px rgb(70, 61, 146);
+    font-family: 'Merienda', cursive;
+    background: rgb(33, 33, 85);
+    width: 250px;
+  }
+  .head{font-family: 'Boogaloo', cursive;
+        font-size: 35px;
+        width: 300px;
+        border-style: inset;
+        padding: 12px;}
+  #head1{color: rgb(88, 74, 83);}
+  #head2{color: rgb(28, 49, 88);}
+  #head3{color: rgb(24, 30, 68);}
+  #head5{color: rgb(99, 100, 29);}
+  #head4{color: rgb(80, 29, 29);}
+  #head6{color: rgb(194, 66, 6);}
+  #head7{color: rgb(43, 133, 91);}
+  #sibling{color: rgb(102, 23, 36);}
+ #info,#family,#achieve,#contact{
+     font-size: 22px;
+     font-family: 'Pangolin', cursive;
+     line-height: 1.5;
+ }
+ .table{ 
+  color:white;
+  font-size: 20px;
+}
+#t1{ background-color: rgb(44, 39, 40);}
+#t2{ background-color: rgb(23, 25, 37);}
+#t1 th {
+  background-color: rgb(68, 57, 57);
+  height: 40px;
+  font-size: 20px;
+}
+#t2 th {
+  background-color: rgb(22, 34, 66);
+  height: 40px;
+  font-size: 20px;
+}
+td {
+  height: 40px;
+  padding: 15px;
+  text-align: left;
+}
+
+#bar {position:fixed;margin:0px 0px 0px 1120px; box-align:right;background:rgb(39, 23, 83);width:200px;min-height:30px;}
+#bar ul {margin:0; padding: 0px ;list-style: none}
+#bar ul li {width:190px;font-size: 25px;border-style: ridge}
+#bar ul li a {color:#fff;padding:7px 5px;text-decoration:none;}
+#bar ul li a:hover {background:hsl(259, 47%, 49%)}
